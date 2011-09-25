@@ -10,7 +10,7 @@
 -- ##              -= YOU MAY NOT REMOVE OR CHANGE THIS NOTICE =-                 ##
 -- ## --------------------------------------------------------------------------- ##
 -- ##  Filename       sql.sql                                                     ##
--- ##  Developed by:  Dzoki & Dixie                                               ##
+-- ##  Developed by:  Dzoki & Dixie & Advocatie & Donnach.                        ##
 -- ##  License:       TravianX Project                                            ##
 -- ##  Copyright:     TravianX (c) 2010-2011. All rights reserved.                ##
 -- ##                                                                             ##
@@ -207,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `%PREFIX%alidata` (
   `ap` bigint(255) unsigned NOT NULL DEFAULT '0',
   `dp` bigint(255) unsigned NOT NULL DEFAULT '0',
   `Rc` bigint(255) unsigned NOT NULL DEFAULT '0',
-  `RR` bigint(255)  NOT NULL DEFAULT '0',
+  `RR` bigint(255) signed  NOT NULL DEFAULT '0',
   `Aap` bigint(255) unsigned NOT NULL DEFAULT '0',
   `Adp` bigint(255) unsigned NOT NULL DEFAULT '0',
   `clp` bigint(255) NOT NULL DEFAULT '0',
@@ -1230,7 +1230,7 @@ CREATE TABLE IF NOT EXISTS `%PREFIX%users` (
   `gpack` varchar(255) NOT NULL DEFAULT 'gpack/travian_default/',
   `cp` int(10) unsigned NOT NULL DEFAULT '1',
   `lastupdate` int(11) unsigned NOT NULL,
-  `RR` int(255) NOT NULL DEFAULT '0',
+  `RR` int(255) signed NOT NULL DEFAULT '0',
   `Rc` int(255) NOT NULL DEFAULT '0',
   `ok` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `clp` bigint(255) NOT NULL DEFAULT '0',
