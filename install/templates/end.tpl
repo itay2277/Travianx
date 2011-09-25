@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                             TRAVIANX                                             //
 //            Only for advanced users, do not edit if you dont know what are you doing!             //
-//                                Made by: Dzoki & Dixie (TravianX)                                 //
+//                                Made by: Dzoki & Dixie & Advocatie & Donnach (TravianX)                                 //
 //                              - TravianX = Travian Clone Project -                                //
 //                                 DO NOT REMOVE COPYRIGHT NOTICE!                                  //
 //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -15,7 +15,7 @@ rename("include/constant.php","../GameEngine/config.php");
     <h4>&nbsp;&nbsp;Please remove/rename the installation folder. <br/><br/>
     &nbsp;&nbsp;The config.php is automaticly placed.</h4>
   
-    <div class="lbox">TravianX, Dzoki & Dixie</div>
+    <div class="lbox">TravianX, Dzoki & Dixie & Advocatie & Donnach</div>
 	<br/><br/>
 &nbsp;Please make a little donate for us, so we can keep developing the software, and &nbsp;fix bugs. Remember: You can use this software now for free. Lets keep it free and &nbsp;donate something!
 <center><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
